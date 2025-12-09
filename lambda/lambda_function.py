@@ -5,7 +5,7 @@ import urllib.request
 def lambda_handler(event, context):
     city = event.get('city', 'London')
 
-    api_key = os.getenv('OPENWEATHER_API_KEY')
+    api_key = os.getenv('OPENWEATHER_KEY')
     url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
 
     try:
