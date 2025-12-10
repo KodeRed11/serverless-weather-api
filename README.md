@@ -1,2 +1,2 @@
-# serverless-weather-api
+# Serverless Weather API
 A serverless weather API using AWS services to gain basic knowledge and understanding of cloud concepts.
